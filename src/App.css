@@ -1,0 +1,51 @@
+body, .table1, .cards { 
+  text-align: center;
+  margin: auto;
+}
+.table1, .table1 td, .table1 th {
+  border: 1px solid black;
+  text-align: center;
+}
+.table1 {
+  border-collapse: collapse;
+}
+.table1 td, .table1 th{
+  padding: 10px;
+}
+
+.inputs td, .inputs th{
+  padding: 3px;
+}
+
+.inputs, input::placeholder{
+  margin: auto;
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.cards{
+  background-color:lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: xx-large;
+  height: 140px;
+  width: 70%;
+  border: 1.5px solid black;
+}
+
+h2{
+  padding-top: 2%;
+}
+.info{
+  padding-bottom: 1%;
+  font-weight: bold;
+}
+.question{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
